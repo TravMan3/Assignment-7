@@ -1,4 +1,4 @@
-package com.coderscampus;
+package com.coderscampus.arraylist;
 
 public class ArrayApplication {
 

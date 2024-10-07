@@ -1,4 +1,4 @@
-package com.coderscampus;
+package com.coderscampus.arraylist;
 
 public class CustomArrayList<T> implements CustomList<T> {
 	Object[] items = new Object[10];
@@ -28,6 +28,18 @@ public class CustomArrayList<T> implements CustomList<T> {
 	@Override
 	public T get(int index) {
 		return (T) items[index];
+	}
+
+	@Override
+	public boolean add(int index, T item) throws IndexOutOfBoundsException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public T remove(int index) throws IndexOutOfBoundsException {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
