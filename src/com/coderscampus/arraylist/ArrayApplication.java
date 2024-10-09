@@ -1,7 +1,5 @@
 package com.coderscampus.arraylist;
 
-import java.util.Arrays;
-
 public class ArrayApplication {
 
 	public static void main(String[] args) {
